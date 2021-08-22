@@ -64,7 +64,7 @@
 }
 
 #page0 {
-    background-image: url("./img/zebra.jpg");
+    background-image: url('img/zebra.webp'), url("./img/zebra.jpg");
     background-size: auto 100%;
     background-repeat: repeat;
     animation: moving-background 10s linear infinite;
@@ -84,7 +84,7 @@
 }
 
 .photo-block .photo {
-    background-image: url('./img/photo_2021-08-19_22-38-07.jpg');
+    background-image: url('img/lera.webp'), url('./img/lera.JPG');
     height: 80%;
     background-size: cover;
     display: flex;

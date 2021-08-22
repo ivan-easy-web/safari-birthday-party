@@ -1,16 +1,18 @@
 
 .page{
     width: 100vw !important;
-    height: 100vh !important;
+    height: fit-content;
     min-height: 100vh !important;
 }
 
 .container {
-    height: 100%;
+    height: fit-content;
+    min-height: 100vh;
 }
 
 .wrapper {
-    height: 100%;
+    height: fit-content;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

@@ -44,14 +44,14 @@
 
 .header, .footer {
     width: fit-content !important;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0;
 }
 
-.header {
-    padding-top: 40px;
-}
-
-.footer {
-    padding-bottom: 40px;
+.header h3, .footer h3, .header h2, .footer h2{
+    margin: 0;
+    padding: 0;
 }
 
 @keyframes moving-background {
@@ -168,6 +168,15 @@
     font-weight: 100;
 }
 
+#page1 .text p {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+#page1 .content {
+    height: fit-content;
+}
+
 .carousel-item {
     height: 40vh;
     border-radius: 35px;
@@ -279,4 +288,5 @@
 }
 ymaps {
     border-radius: 35px;
+    overflow: hidden;
 }
